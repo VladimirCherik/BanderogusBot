@@ -173,6 +173,12 @@ public class Main extends TelegramLongPollingBot {
             }
 
     }
+    class Another{
+        void Another(){
+
+        }
+        void toDo(int i){};
+    }
 
     public Long getChatId(Update update){
         if(update.hasMessage()) {
